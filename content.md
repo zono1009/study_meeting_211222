@@ -42,6 +42,8 @@ config.hosts << "port-3000-xxxxxxxxx.preview.codeanywhere.com"
 ```
 rails generate scaffold User name:string age:integer
 
+bundle exec rake db:migrate
+
 rails s
 
 https://port-3000-xxxxx.preview.codeanywhere.com/users
