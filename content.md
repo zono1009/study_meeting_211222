@@ -35,6 +35,8 @@ bundle install
 
 rails s
 
+https://port-3000-xxxxx.preview.codeanywhere.com
+
 config.hosts << "port-3000-xxxxxxxxx.preview.codeanywhere.com"
 ```
 
